@@ -1,0 +1,122 @@
+﻿<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>signup</title>
+    <!--        Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <!--jQuery library--> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--Latest compiled and minified JavaScript--> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+       <style>
+          #banner_image{
+              padding-top: 75px;
+              padding-bottom: 50px;
+              text-align: center;
+              color: #f8f8f8;
+              background-image: url(intro.jpg);
+              background-size: cover;
+          }
+           #banner_content{
+               position: relative;
+               padding-top: 6%;
+               padding-bottom: 6%;
+               margin-top: 12%;
+               margin-bottom: 12%;
+               background-color: rgba(0,0,0,0.7);
+               max-width: 660px;
+           }
+           footer{
+               padding: 10px 0;
+               background-color: #101010;
+               color: #9d9d9d;
+               bottom: 0;
+               width: 100%;
+           }
+           #padding_left{
+               padding-left: 400px;
+           }
+      </style>
+  </head>
+    <body>
+         <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+                <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="index.php"><span class="glyphicon glyphicon-home"></span> Lifestyle Store</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="signup.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+        </div>
+      </div>
+      </div>
+    </nav>
+        <br>
+        <br>
+        <br>
+        <div class="container">
+      <div class="row">
+          <div class="col-md-6">
+              <cenetr><h1>USER REGISTRATION</h1></cenetr>
+              <form action="products.php" method="post">
+                  <div class="form-group">
+          <label for="firstname">Firstname</label>
+          <input type="text" class="form-control" name="firstname" placeholder="firstname" value="" required>
+                      <br>
+          <label for="lastname">Lastname</label>
+          <input type="text" class="form-control" name="lastname" placeholder="lastname" value="" required>
+                      <br>
+          <label for="email">Email</label>
+          <input type="email" name="email" class="form-control" placeholder="Email" required value="">
+          <br>
+
+          <label for="contact">Contact no</label>
+          <input type="number" name="phone" class="form-control" placeholder="phone" required>
+          <br>
+          <label for="password">Password</label>
+          <input type="password" name="password" class="form-control" placeholder="password" required="">
+          <br>
+          <label for="address">Address</label>
+          <input type="text" name="address" class="form-control" placeholder="address" required="">
+          <br>
+          <label for="pincode">Pincode</label>
+          <input type="number" name="pincode" class="form-control" placeholder="pincode" required="">
+           <br>
+            <input type="submit" class="btn btn-primary" value="submit">
+                  </div>
+              </form>
+      </div>
+      </div>
+      </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+         <footer>
+            <div class="container">
+                <center>
+                    <p>Copyright © Lifestyle Store. All Rights
+Reserved | contact Us:+91 90000 00000</p>
+                </center>
+            </div>
+        </footer>
+    </body>
+</html>
