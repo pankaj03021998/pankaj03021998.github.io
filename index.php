@@ -47,12 +47,12 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>                        
                     </button>
-                    <a class="navbar-brand" href="index.php"><span class="glyphicon glyphicon-home"></span> Lifestyle Store</a>
+                    <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home"></span> Lifestyle Store</a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="registration.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                        <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        <li><a href="registration.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                     </ul>
         </div>
       </div>
@@ -65,7 +65,7 @@
                 <center>
                 <div id="banner_content">
                     <h2>FLAT 60% OFF ON BRAND</h2>
-                    <a href="login.php"class="btn btn-danger btn-lg active">Shop Now</a>
+                    <a href="login.html"class="btn btn-danger btn-lg active">Shop Now</a>
                     </div>
                 </center>
             </div>
