@@ -1,0 +1,90 @@
+
+          #banner_image{
+              padding-top: 75px;
+              padding-bottom: 50px;
+              text-align: center;
+              color: #f8f8f8;
+              background-image: url(index.jpg);
+              background-size: cover;
+          }
+           #banner_content{
+               position: relative;
+               padding-top: 6%;
+               padding-bottom: 6%;
+               margin-top: 12%;
+               margin-bottom: 12%;
+               background-color: rgba(0,0,0,0.5);
+               max-width: 660px;
+           }
+           footer{
+               padding: 10px 0;
+               background-color: black;
+               color: #9d9d9d;
+               bottom: 0;
+               width: 100%;
+           }
+           h2{
+               font-family:serif;
+           }
+            body{
+            background-color: white;
+        }
+        #head{color: #ececec;
+        font-size: 10px;}
+        .color{
+            padding-top: 100px;
+            color: black;}
+        #back{
+            padding-bottom: 100px;
+            padding-left: 100px;
+            font-size: 20px;
+        }
+        #pad{margin-top: 10px;}
+       
+        #boder{margin-top: 18px;}
+           #side{
+              margin-top: 8px;
+              padding-left: 500px;
+          }
+           .navfont{
+           }
+           .card-text{
+               font-size: 15px;
+           }
+           #cardshift{
+               padding-left: 100px;
+           }
+           font{
+               font-family:sans-serif;
+           }
+           #section2{
+               padding-left: 400px;
+           }
+           #logo{
+               font-family: serif;
+               font-size: 25px;
+           }
+           #logo:hover{
+               color: red;
+           }
+           #navcol:hover{
+               color:blue;
+               font-size: 16px;
+           }
+#intro{
+    font-size: 18px;
+}
+#send
+{
+    color: white;
+    background-color: darkslateblue;
+    background-size: 20px;
+}
+#send:hover
+{
+    color:black;
+}
+#middle{
+    margin-left: 200px;
+    margin-right: 300px;
+}

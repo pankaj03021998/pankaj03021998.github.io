@@ -1,0 +1,124 @@
+﻿<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>About</title>
+    <!--        Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="about.css"> <!--css file-->
+       <style type="text/css">
+           
+    </style>
+  </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: black">
+        <div class="container">
+                <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="main.php"><font color="blue"id="logo"><strong>BIJENDRA</strong></font></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right" style="color: red">
+                        <li><a href="Company.php" style="font-family:fantasy"><font color="white"id="navcol"> <b>COMPANY</b></font></a></li>
+                        <li><a href="Education.php" style="font-family:fantasy"><font color="white"id="navcol"> <b>EDUCATION</b></font></a></li>
+                        <li><a href="Awards.php" style="font-family:fantasy"><font color="white"id="navcol"> <b>AWARDS</b></font></a></li>
+                        <li><a href="Experience.php" style="font-family:fantasy"><font color="white"id="navcol"> <b>EXPERIENCE</b></font></a></li>
+                        <li><a href="projects.php" style="font-family:fantasy"><font color="white"id="navcol"> <b>PROJECTS</b></font></a></li>
+                        <li><a href="Support.php" style="font-family:fantasy"><font color="white"id="navcol"> <b>SUPPORT</b></font></a></li>
+                        <li><a href="About.php" style="font-family:fantasy"><font color="white"id="navcol"> <b>ABOUT</b></font></a></li>
+                        <li><a href="index.php" style="font-family:fantasy"><font color="white"id="navcol"><b>LOGOUT </b><span class="glyphicon glyphicon-log-out"></span></font></a></li>
+                    </ul>
+        </div>
+      </div>
+      </div>
+    </nav>
+        <br>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <br>
+                    <br>
+                  <h2><strong>About Me </strong></h2>
+                  <font>Career Capsule, a company incorporated in Hamirpur, H.P, India.Career Capsule business means the development, marketing of all the information about education including details about competitive exams and corresponding colleges and support students in collecting reliable information and obtaining help in choice filling and counselling activities to get colleges they should.</font>
+                </div>
+                <div class="col-md-6">
+                    <br>
+                    <br>
+                    <br>
+                    <div class="card" style="width: 250px">
+            <img class="card-img-top" src="bijendra.JPG" alt="image" height="248px" width="248px">
+                            <div class="card-body">
+                            <div class="card-title">
+                                <h4 class="card-text"> <span class="glyphicon glyphicon-user"></span><strong> Bijendra Kumar</strong></h4>
+                                <p class="card-text"><font><ul><li>Director & Founder at FutureTalash Edu Services Private Limited</li><li>CEO at College Talash
+                                    Hamirpur, Himachal Pradesh, India</li><li><span class="glyphicon glyphicon-education"></span> NIT Hamirpur</li></ul></font></p>
+                                <a href="profile.html" class="btn btn-primary">See profile</a>
+                            </div>
+                            </div>
+                     </div>
+                </div>
+             </div>
+        </div>
+        <br>
+        <br>
+        <footer style="background-color: black">
+            <div class="container">
+                <div class="row">
+                <div class="col-md-3 col-xs-4">
+                    <b>COURSES</b>
+                    
+                       <br> iit-jee prepartion
+                
+                        <br>gate prepartion
+                    
+                        <br>campus prepartion
+                        <br>more
+    
+                </div>
+                <div class="col-md-3 col-xs-4">
+                    <b>COMPANY</b>
+                    <br>career capsule
+                    <br>college talash
+                    <br>future talash
+                    <br>
+
+                </div>
+                <div class="col-md-3 col-xs-4">
+                    <b>MORE</b>
+                    <br>about
+                    <br>support
+                    <br>invite us
+                    <br>career counselling
+                    <br>contact us
+
+                </div>
+                <div class="col-md-3 col-xs-4">
+                  
+
+                </div>
+            
+                </div>
+                </div>
+            <hr/>
+                <div class="container">
+                <center>
+                    Copyright © Career capsule 2019. All Rights
+Reserved | contact Us:+91 90000 00000
+                </center>
+            </div>
+        </footer>
+        <!--jQuery library--> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--Latest compiled and minified JavaScript--> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>
